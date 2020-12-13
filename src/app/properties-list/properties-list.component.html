@@ -1,8 +1,9 @@
 <div>
   <h1>Upcoming Properties for Sale</h1>
   <hr/>
-<!--  [] is used to present the flow from parent component to the child-->
-<!--  () is used to present the flow from child component to the parent-->
-<!--  #thumbnail : is a template reference variable-->
-  <app-property-thumbnail  *ngFor="let prop of props" [inpProp]="prop"></app-property-thumbnail>
+  <div class="row">
+    <div class="col-lg-6" *ngFor="let prop of props">
+      <app-property-thumbnail [inpProp]="prop"></app-property-thumbnail>
+    </div>
+  </div>
 </div>

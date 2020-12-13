@@ -7,13 +7,15 @@ import { PropertiesListComponent } from './properties-list/properties-list.compo
 import { PropertyThumbnailComponent } from './property-thumbnail/property-thumbnail.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PropertyDetailsComponent } from './property-details/property-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PropertiesListComponent,
     PropertyThumbnailComponent,
-    NavBarComponent
+    NavBarComponent,
+    PropertyDetailsComponent
   ],
   imports: [
     BrowserModule,

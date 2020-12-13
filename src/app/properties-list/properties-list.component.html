@@ -1,0 +1,8 @@
+<div>
+  <h1>Upcoming Properties for Sale</h1>
+  <hr/>
+<!--  [] is used to present the flow from parent component to the child-->
+<!--  () is used to present the flow from child component to the parent-->
+<!--  #thumbnail : is a template reference variable-->
+  <app-property-thumbnail #thumbnail [inpProp]="prop" (outpProp)="handleClick($event)"></app-property-thumbnail>
+</div>
